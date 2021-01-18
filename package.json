@@ -1,0 +1,10 @@
+{
+  "name": "junosql-gui",
+  "version": "1.0.0",
+  "description": "Oficial graphic interface for JunoSQL",
+  "main": "index.tsx",
+  "repository": "http://github.com/wlcpereira/junosql-gui.git",
+  "author": "WLCpereira <wn.pereira@outlook.com.br>",
+  "license": "MIT",
+  "private": true
+}
