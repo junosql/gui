@@ -1,0 +1,8 @@
+{
+  extends: [
+    'stylelint-config-recommended',
+    'stylelint-config-styled-components',
+    'typescript-plugin-styled-components'
+  ],
+  sintax: 'css-in-js',
+}
