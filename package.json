@@ -2,8 +2,8 @@
   "name": "junosql-gui",
   "version": "1.0.0",
   "description": "Oficial graphic interface for JunoSQL",
-  "main": "index.tsx",
-  "repository": "http://github.com/wlcpereira/junosql-gui.git",
+  "main": "webpack.config.ts",
+  "repository": "https://github.com/junosql/gui.git",
   "author": "WLCpereira <wn.pereira@outlook.com.br>",
   "license": "MIT",
   "private": true,
@@ -14,6 +14,8 @@
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
     "@babel/runtime": "^7.12.5",
+    "@types/fork-ts-checker-webpack-plugin": "^0.4.5",
+    "@types/node": "^14.14.21",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/webpack": "^4.41.26",
@@ -24,11 +26,21 @@
     "eslint": "^7.18.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "fork-ts-checker-webpack-plugin": "^6.1.0",
     "html-webpack-plugin": "^4.5.1",
+    "stylelint": "^13.8.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-custom-processor-loader": "^0.6.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3",
+    "typescript-plugin-styled-components": "^1.4.4",
     "webpack": "^5.15.0",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
